@@ -1,0 +1,143 @@
+.hero {
+    height: 870px;
+    background-image: url("../img/general/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 290px;
+    margin-top: -31px;
+    position: relative;
+    overflow: hidden;
+
+    .h1 {
+        font-size: 60px;
+        margin-bottom: 30px;
+        color: #fff;
+
+        font-family: "GothaProMed", sans-serif;
+    }
+
+    .p {
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: #c9cff1;
+    }
+
+    .special-offer {
+        .p {
+            font-size: 20px;
+            line-height: 24px;
+            margin: 0;
+            color: #ffcc80;
+
+            &:last-of-type {
+                font-size: 43px;
+                line-height: 45px;
+                font-weight: bold;
+                font-family: "GothaProReg", sans-serif;
+            }
+        }
+    }
+
+    .get-discount {
+        .btn {
+            padding: 22px 90px;
+        }
+
+        .notice {
+            opacity: .6;
+            font-size: 13px;
+            color: #ffcc80;
+            padding-left: 70px;
+            padding-top: 10px;
+        }
+    }
+
+    .benefits {
+        .benefit {
+            width: 300px;
+            text-align: left;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border: 1px dashed #c9cff1;
+            color: #c9cff1;
+            border-radius: 4px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+
+    .benefits-list {
+        padding-top: 90px;
+        padding-bottom: 57px;
+
+        .items {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            > li {
+                display: inline-block;
+                font-size: 20px;
+                line-height: 20px;
+                color: #fff;
+
+                .text {
+                    display: inline-block;
+                    width: 135px;
+                }
+
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    position: relative;
+                    margin-left: 24px;
+                    margin-right: 24px;
+                }
+
+                &.free-calculation {
+                    &:before {
+                        content: url("../img/general/free-calculation.png");
+                    }
+                }
+
+                &.excellent-quality {
+                    &:before {
+                        content: url("../img/general/excellent-quality.png");
+                    }
+                }
+
+                &.garantie-trust {
+                    &:before {
+                        content: url("../img/general/garantie-trust.png");
+                    }
+                }
+
+                &.garantie-sevice {
+                    &:before {
+                        content: url("../img/general/garantie-sevice.png");
+                    }
+                }
+
+                &.installation {
+                    &:before {
+                        content: url("../img/general/installation.png");
+                    }
+                }
+            }
+        }
+    }
+
+    .wave {
+        position: absolute;
+        left: -370px;
+        bottom: -120px;
+        width: 2428px;
+
+        svg:hover {
+            path {
+                d: path("M 0 0 L 0 817 L 2428 817 L 2428 817 L 2428 0 L 0 0 ");
+            }
+        }
+
+    }
+}

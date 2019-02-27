@@ -1,0 +1,61 @@
+.top-header {
+    background: #fff;
+    border-bottom: 1px solid #f5f6f8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .logo {
+        .p {
+            font-size: 24px;
+            line-height: 24px;
+            margin: 0;
+
+            &:last-of-type {
+                font-size: 18px;
+            }
+        }
+
+        .logo-icon {
+            float: left;
+        }
+
+        .logo-title {
+            float: left;
+            margin-left: 20px;
+        }
+    }
+
+    .office,
+    .work-time {
+        .p {
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0;
+
+            &:last-of-type {
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .free-call {
+        .p {
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0;
+
+            &:last-of-type {
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .call-me {
+        .btn {
+            margin-top: 6px;
+            padding: 8px 26px;
+        }
+    }
+}

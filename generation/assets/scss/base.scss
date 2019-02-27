@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "GothaProReg";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/GothaProReg.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "GothaProMed";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/GothaProMed.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "GothaProBol";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../fonts/GothaProBol.otf") format('opentype');
+}
+
+body {
+    background: #f5f6f8;
+    font-family: "GothaProReg", sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1180px;
+}
